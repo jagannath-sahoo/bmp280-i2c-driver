@@ -1,0 +1,8 @@
+/
+{
+    &i2c0: bmp280_device {
+        compatible = "bosch,bmp280";
+        reg = <0x76>;
+        status = "okay";
+    };
+};

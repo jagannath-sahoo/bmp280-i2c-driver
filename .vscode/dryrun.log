@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jagannath/upskills_ldd/upskill_project/bmp280-i2c-driver'
+make -C /home/jagannath/rugged_board_a5d2x/linux-rba5d2x M=/home/jagannath/upskills_ldd/upskill_project/bmp280-i2c-driver modules
+make: Leaving directory '/home/jagannath/upskills_ldd/upskill_project/bmp280-i2c-driver'
+ 
