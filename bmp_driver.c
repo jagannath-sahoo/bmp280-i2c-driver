@@ -283,8 +283,6 @@ static int bmp280_probe(struct i2c_client *client, const struct i2c_device_id *i
     bmp2_error_codes_print_result("get_data", result);
 
     return result;
-
-    return E_FAILED;
 }
 
 /**
